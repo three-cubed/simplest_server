@@ -11,6 +11,6 @@ app.get('/other', (req, res) => {
     res.render('other');
 });
 
-app.listen(process.env.port || 3333, () => {
+app.listen(process.env.PORT || 3333, () => {
     console.log('listening to 3333');
 });
